@@ -4,6 +4,10 @@
 
 A high-integrity data aggregation and weighting system for professional sports wagering. Features dynamic probability thresholds, automated unit-stake allocation, and a persistent performance auditing layer built in Google Sheets.
 
+
+[![Google Sheets](https://img.shields.io/badge/Google%20Sheets-Master%20Dashboard-34A853?style=for-the-badge&logo=google-sheets&logoColor=white)](https://docs.google.com/spreadsheets/d/1J5f2734y2Sg6D6CmpXGUk2rLuI7iQQKYPTUPOsNSa-I/edit?usp=drive_link)
+
+
 ## ⚙️ Logic & Architecture
 The GSbCM utilizes a performance-weighted consensus engine to determine signal strength:
 - **Elite (1.5x):** Win Rate ≥ 55%
@@ -90,5 +94,3 @@ If a parlay involves multiple sports or has no clear primary: **Log on the MLB T
 * 🛑 **1-Point Filter:** If line moves $\ge$ 1.0 point, **DO NOT BET.**
 * 🎁 **Bonus Bets:** Log as **$0.00 Stake**. 
 * 🛡️ **Burn-In Rule:** **1u Flat Bets** for the first 14 days.
-
-[![Google Sheets](https://img.shields.io/badge/Google%20Sheets-Master%20Dashboard-34A853?style=for-the-badge&logo=google-sheets&logoColor=white)](https://docs.google.com/spreadsheets/d/1J5f2734y2Sg6D6CmpXGUk2rLuI7iQQKYPTUPOsNSa-I/edit?usp=drive_link)
