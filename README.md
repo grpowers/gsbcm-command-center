@@ -90,3 +90,5 @@ If a parlay involves multiple sports or has no clear primary: **Log on the MLB T
 * 🛑 **1-Point Filter:** If line moves $\ge$ 1.0 point, **DO NOT BET.**
 * 🎁 **Bonus Bets:** Log as **$0.00 Stake**. 
 * 🛡️ **Burn-In Rule:** **1u Flat Bets** for the first 14 days.
+
+[![Google Sheets](https://img.shields.io/badge/Google%20Sheets-Master%20Dashboard-34A853?style=for-the-badge&logo=google-sheets&logoColor=white)](https://docs.google.com/spreadsheets/d/1J5f2734y2Sg6D6CmpXGUk2rLuI7iQQKYPTUPOsNSa-I/edit?usp=drive_link)
